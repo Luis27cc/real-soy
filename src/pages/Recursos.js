@@ -1,5 +1,6 @@
 import React from "react";
-import "../styles.css"; // 
+import "../styles.css";
+
 function Recursos() {
   return (
     <div className="page-container recursos-container">
