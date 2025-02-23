@@ -1,5 +1,5 @@
-import React from "react";
-import "../styles.css";  
+echo 'import React from "react";
+import "../styles.css";
 
 function Recursos() {
   return (
@@ -17,4 +17,4 @@ function Recursos() {
   );
 }
 
-export default Recursos;
+export default Recursos;' > src/pages/Recursos.js
