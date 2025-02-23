@@ -1,4 +1,4 @@
-/* Aplicar imágenes de fondo específicas para cada página */
+echo '/* Estilos de fondo para cada sección */
 .home-container {
   background: url("/home.jpg") no-repeat center center/cover;
 }
@@ -19,7 +19,7 @@
   background: url("/recursos.jpg") no-repeat center center/cover;
 }
 
-/* Estilos generales */
+/* Estilos generales para todas las páginas */
 .page-container {
   width: 100%;
   height: 100vh;
@@ -32,8 +32,25 @@
   padding: 20px;
 }
 
+/* Estilos de los textos para mejorar visibilidad */
 .page-container h1, .page-container p {
   background: rgba(0, 0, 0, 0.6);
   padding: 10px;
   border-radius: 5px;
 }
+
+/* Botones */
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}' > src/styles.css
