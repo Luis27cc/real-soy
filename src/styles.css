@@ -32,7 +32,9 @@
   padding: 20px;
 }
 
-.page-container h1, .page-container p {
+/* Corrección del error en h1 y p */
+.page-container h1, 
+.page-container p {
   background: rgba(0, 0, 0, 0.6);
   padding: 10px;
   border-radius: 5px;
