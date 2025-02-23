@@ -1,4 +1,16 @@
 /* Fondo de cada sección con la configuración correcta */
+.home-container, 
+.test-container, 
+.galeria-container, 
+.foro-container, 
+.recursos-container {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+/* Aplicar fondo a cada página */
 .home-container {
   background-image: url("/home.jpg");
 }
@@ -17,18 +29,6 @@
 
 .recursos-container {
   background-image: url("/recursos.jpg");
-}
-
-/* Configuración general del fondo */
-.home-container, 
-.test-container, 
-.galeria-container, 
-.foro-container, 
-.recursos-container {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 100vh;
 }
 
 /* Estilos generales */
