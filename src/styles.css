@@ -1,38 +1,30 @@
-/* Fondo de cada sección con configuración 100% correcta */
+/* Fondo de cada sección con la configuración correcta */
 .home-container {
   background-image: url("/home.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 100vh;
 }
 
 .test-container {
   background-image: url("/test.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 100vh;
 }
 
 .galeria-container {
   background-image: url("/galeria.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 100vh;
 }
 
 .foro-container {
   background-image: url("/foro.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 100vh;
 }
 
 .recursos-container {
   background-image: url("/recursos.jpg");
+}
+
+/* Configuración general del fondo */
+.home-container, 
+.test-container, 
+.galeria-container, 
+.foro-container, 
+.recursos-container {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
